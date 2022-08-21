@@ -1,0 +1,42 @@
+﻿@model WebQLQuanAn.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "Thông tin khách hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h1>Thông tin khách hàng</h1>
+
+                <div>
+                    <hr />
+                    <dl class="dl-horizontal">
+                        <dt>
+                            Tên khách hàng
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.TenKH)
+                        </dd>
+
+                        <dt>
+                           Số điện thoại
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.SDT)
+                        </dd>
+
+                    </dl>
+                </div>
+                <p>
+                    <button class="btn btn-gradient-primary me-2">@Html.ActionLink("Chỉnh sửa", "Suathongtinkhachhang", new { id = Model.MaKH })</button>
+                    <button class="btn btn-light"> @Html.ActionLink("Cancel", "Danhsachkhachhang")</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

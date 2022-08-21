@@ -1,0 +1,94 @@
+﻿@model PagedList.IPagedList<WebQLQuanAn.Models.BAN>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Danh sách bàn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="~/Assets/assets/css/table.css">
+</head>
+
+<div class="content-wrapper">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h1>Danh sách bàn</h1>
+
+                <button class="custom-btn btn-8">
+                    <span>
+                        @Html.ActionLink("Thêm bàn", "Themban")
+                    </span>
+                </button>
+
+                
+                    @using (Html.BeginForm())
+                    {
+                        <p>
+                            Tên bàn: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+                            <input class="btn btn-gradient-primary btn-rounded btn-fw" type="submit" value="Search" />
+                        </p>
+                    }
+               
+               
+
+                <div class="table-wrapper">
+                    <div class="scroll">
+                        <table class="fl-table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Tên bàn
+                                    </th>
+                                    <th>
+                                        Loại bàn
+                                    </th>
+                                    <th>
+                                        Trạng thái
+                                    </th>
+                                    <th></th>
+                                </tr>
+
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TenBan)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.LoaiBan)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TrangThai)
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-warning btn-sm">
+                                                @Html.ActionLink("Sửa bàn", "Suaban", new { id = item.MaBan })
+                                            </button>
+                                            <button type="button" class="btn btn-success btn-sm">
+                                                @Html.ActionLink("Thông tin bàn", "Thongtinban", new { id = item.MaBan })
+                                            </button>
+                                            <button type="button" class="btn btn-danger btn-sm">
+                                                @Html.ActionLink("Xóa bàn", "Xoaban", new { id = item.MaBan })
+                                            </button>
+
+                                        </td>
+                                    </tr>
+                                }
+                            </thead>
+
+                        </table>
+                    </div>
+                </div>
+                Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+                @Html.PagedListPager(Model, page => Url.Action("Danhsachban",
+                    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+            </div>
+        </div>
+
+    </div>
+
+</div>

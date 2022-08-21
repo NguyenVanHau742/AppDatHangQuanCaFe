@@ -1,0 +1,126 @@
+﻿@model IEnumerable<WebQLQuanAn.Models.HOADON>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="~/Assets/assets/css/table.css">
+</head>
+
+<div class="content-wrapper">
+
+    <div class="col-lg-12 stretch-card">
+        <div class="card">
+            <div class="card-body">
+
+                <h1>THỐNG KÊ DOANH THU NHÀ HÀNG</h1>
+
+                @using (Html.BeginForm())
+                {
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label"><b>Start Date</b></label>
+                                <div class="col-sm-9">
+                                    <input class="form-control" type="date" name="start" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label"><b>End Date</b></label>
+                                <div class="col-sm-9">
+                                    <input class="form-control" type="date" name="end" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <input class="btn btn-gradient-primary mb-2" type="submit" value="Lấy danh sách" />
+
+
+                }
+                <br />
+                <div class="table-wrapper">
+                    <div class="scroll">
+                        <table class="fl-table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Tên bàn
+                                    </th>
+                                    <th>
+                                        Tên khách hàng
+                                    </th>
+                                    <th>
+                                        Ngày bán
+                                    </th>
+                                    <th>
+                                        Thuế
+                                    </th>
+                                    <th>
+                                        Mã giảm giá
+                                    </th>
+                                    <th>
+                                        Tổng tiền
+                                    </th>
+                                    <th>
+                                        Trạng thái
+                                    </th>
+                                </tr>
+                                @{
+                                    int tongtien = 0;
+
+                                }
+                                @foreach (var item in Model)
+                                {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.BAN.TenBan)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.KHACHHANG.TenKH)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.NgayBan)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Thue)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.GIAMGIA.TenMaGiamGia)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.TongTien)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.TrangThai)
+                                </td>
+                            </tr>
+                                    tongtien += Convert.ToInt32(item.TongTien);
+                                }
+                            </thead>
+
+                        </table>
+                    </div>
+                </div>
+
+
+                <table class="table">
+                    <tr>
+                        <td> <b style="font-size:20px"> Tổng số hóa đơn: @ViewData["sohoadon"]</b></td>
+                        <td></td>
+                        <td> <b style="font-size:20px">Tổng doanh thu: @tongtien VND</b></td>
+                        <td></td>
+                    </tr>
+
+                </table>
+
+            </div>
+            </div>
+    </div>
+
+</div>

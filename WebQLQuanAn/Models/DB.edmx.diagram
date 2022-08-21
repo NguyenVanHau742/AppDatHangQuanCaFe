@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c3951ea4815b49438f9929bb3a665c66" Name="Diagram1">
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.BAN" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.CALAMVIEC" Width="1.5" PointX="1.5" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.CHITIETDONHANG" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.DATMON" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.GIAMGIA" Width="1.5" PointX="3.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.HOADON" Width="1.5" PointX="6" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.KHACHHANG" Width="1.5" PointX="3.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.LOAISP" Width="1.5" PointX="1.5" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.NHANVIEN" Width="1.5" PointX="3.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.SANPHAM" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.sysdiagram" Width="1.5" PointX="5.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="orderrestaurant_TeamdbModel.TAIKHOAN" Width="1.5" PointX="1.5" PointY="16.625" IsExpanded="true" />
+        <AssociationConnector Association="orderrestaurant_TeamdbModel.fk_datmon_maban" ManuallyRouted="false" />
+        <AssociationConnector Association="orderrestaurant_TeamdbModel.fk_hoadon_maban" ManuallyRouted="false" />
+        <AssociationConnector Association="orderrestaurant_TeamdbModel.fk_chitietdonhang_mahoadon" ManuallyRouted="false" />
+        <AssociationConnector Association="orderrestaurant_TeamdbModel.fk_chitietdonhang_masp" ManuallyRouted="false" />
+        <AssociationConnector Association="orderrestaurant_TeamdbModel.fk_datmon_masp" ManuallyRouted="false" />
+        <AssociationConnector Association="orderrestaurant_TeamdbModel.fk_hoadon_magiamgia" ManuallyRouted="false" />
+        <AssociationConnector Association="orderrestaurant_TeamdbModel.fk_hoadon_makh" ManuallyRouted="false" />
+        <AssociationConnector Association="orderrestaurant_TeamdbModel.fk_hoadon_manv" ManuallyRouted="false" />
+        <AssociationConnector Association="orderrestaurant_TeamdbModel.fk_sanpham_maloaisp" ManuallyRouted="false" />
+        <AssociationConnector Association="orderrestaurant_TeamdbModel.fk_nhanvien_matk" ManuallyRouted="false" />
+        <AssociationConnector Association="orderrestaurant_TeamdbModel.DKCA" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

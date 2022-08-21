@@ -1,0 +1,105 @@
+﻿@model PagedList.IPagedList<WebQLQuanAn.Models.SANPHAM>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/Assets/assets/css/table.css">
+</head>
+
+<div class="content-wrapper">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h1>Danh sách sản phẩm</h1>
+
+                <button class="custom-btn btn-8">
+                    <span>
+                        @Html.ActionLink("Thêm sản phẩm", "Themsanpham")
+                    </span>
+                </button>
+
+                @using (Html.BeginForm())
+                {
+            <p>
+                Tên sản phẩm: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+                <input class="btn btn-gradient-primary btn-rounded btn-fw" type="submit" value="Search" />
+            </p>
+                }
+
+                <div class="table-wrapper">
+                    <div class="scroll">
+                        <table class="fl-table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Loại sản phẩm
+                                    </th>
+                                    <th>
+                                        Tên sản phẩm
+                                    </th>
+                                    <th>
+                                        Đơn giá
+                                    </th>
+                                    <th>
+                                        Đơn vị
+                                    </th>
+                                    <th>
+                                        Mô tả
+                                    </th>
+                                    <th>
+                                        Hình ảnh
+                                    </th>
+                                    <th></th>
+                                </tr>
+
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.LOAISP.TenLoai)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TenSP, new { sortOrder = ViewBag.NameSortParm })
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DonGia)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DonVi)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.MoTa)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.HinhAnh)
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-warning btn-sm">
+                                                @Html.ActionLink("Sửa thông tin", "Suathongtinsanpham", new { id = item.MaSP })
+                                            </button>
+                                            <button type="button" class="btn btn-success btn-sm">
+                                                @Html.ActionLink("Thông tin chi tiết", "Thongtinsanpham", new { id = item.MaSP })
+                                            </button>
+                                            <button type="button" class="btn btn-danger btn-sm">
+                                                @Html.ActionLink("Xóa sản phẩm", "Xoasanpham", new { id = item.MaSP })
+                                            </button>
+                                        </td>
+                                    </tr>
+                                }
+                            </thead>
+
+                        </table>
+                    </div>
+                </div>
+                Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+                @Html.PagedListPager(Model, page => Url.Action("Danhsachsanpham",
+                    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+            </div>
+        </div>
+    </div>
+</div>

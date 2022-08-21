@@ -1,0 +1,92 @@
+﻿@model WebQLQuanAn.Models.NHANVIEN
+
+@{
+    ViewBag.Title = "Xóa nhân viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h1>Xóa nhân viên</h1>
+
+                <h3>Bạn có chắc là muốn xóa nhân viên này???</h3>
+                <div>
+                    <hr />
+                    <dl class="dl-horizontal">
+                        <dt>
+                            Tên tài khoản
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.TAIKHOAN.TenTK)
+                        </dd>
+
+                        <dt>
+                            Tên nhân viên
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.TenNV)
+                        </dd>
+
+                        <dt>
+                            Địa chỉ
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.DiaChi)
+                        </dd>
+
+                        <dt>
+                            Ngày sinh
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.NgaySinh)
+                        </dd>
+
+                        <dt>
+                            Giới tính
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.GioiTinh)
+                        </dd>
+
+                        <dt>
+                            Số điện thoại
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.SDT)
+                        </dd>
+
+                        <dt>
+                            Chức vụ
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.ChucVu)
+                        </dd>
+
+                    </dl>
+
+
+                        @using (Html.BeginForm())
+                        {
+                            @Html.AntiForgeryToken()
+
+                            <button type="submit" class="btn btn-gradient-primary me-2">XÓA</button>
+                        }
+                        <br />
+                        <button class="btn btn-light"> @Html.ActionLink("Cancel", "Danhsachnhanvien")</button>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    

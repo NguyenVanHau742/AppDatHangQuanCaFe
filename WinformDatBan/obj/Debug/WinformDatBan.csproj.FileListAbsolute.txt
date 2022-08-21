@@ -1,0 +1,100 @@
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\bin\Debug\WinformDatBan.exe.config
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\bin\Debug\WinformDatBan.exe
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\bin\Debug\WinformDatBan.pdb
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.csproj.AssemblyReference.cache
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.frmDangNhap.resources
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.Properties.Resources.resources
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.csproj.GenerateResource.cache
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.csproj.CoreCompileInputs.cache
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.exe
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.pdb
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmDatBan.resources
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmMenu.resources
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmChuyenBan.resources
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmChonBan.resources
+C:\Users\daong\source\repos\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmDatMon.resources
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\WinformDatBan.exe.config
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\WinformDatBan.exe
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\WinformDatBan.pdb
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmChuyenBan.resources
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.frmDangNhap.resources
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmDatBan.resources
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmDatMon.resources
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmMenu.resources
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.Properties.Resources.resources
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.csproj.GenerateResource.cache
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.csproj.CoreCompileInputs.cache
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.exe
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.pdb
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.csproj.AssemblyReference.cache
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\BUS.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\DTO.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\DAO.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\BUS.pdb
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\DTO.pdb
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\DAO.pdb
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.csproj.CopyComplete
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmNhaBep.resources
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmThuNgan.resources
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\EnvDTE.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\stdole.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\Microsoft.MSXML.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\WinformDatBan.FrmInHoaDon.resources
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\RdlCompile.cache
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\obj\Debug\RdlCompile.compiled
+F:\Đồ án chuyên ngành\AppDatBan\WinformDatBan\bin\Debug\RpInHoaDon.rdlc

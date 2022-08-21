@@ -1,0 +1,82 @@
+﻿@model WebQLQuanAn.Models.NHANVIEN
+
+@{
+    ViewBag.Title = "Thông tin nhân viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h1>Thông tin nhân viên</h1>
+
+                <div>
+                    <hr />
+                    <dl class="dl-horizontal">
+                        <dt>
+                            Tên tài khoản
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.TAIKHOAN.TenTK)
+                        </dd>
+
+                        <dt>
+                            Tên nhân viên
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.TenNV)
+                        </dd>
+
+                        <dt>
+                            Địa chỉ
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.DiaChi)
+                        </dd>
+
+                        <dt>
+                            Ngày sinh
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.NgaySinh)
+                        </dd>
+
+                        <dt>
+                            Giới tính
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.GioiTinh)
+                        </dd>
+
+                        <dt>
+                            Số điện thoại
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.SDT)
+                        </dd>
+
+                        <dt>
+                            Chức vụ
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.ChucVu)
+                        </dd>
+
+                    </dl>
+                </div>
+                <p>
+                    <button class="btn btn-gradient-primary me-2">@Html.ActionLink("Sửa thông tin", "Suathongtinnhanvien", new { id = Model.MaNV })</button>
+                    <button class="btn btn-light"> @Html.ActionLink("Cancel", "Danhsachnhanvien")</button>
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>

@@ -1,0 +1,50 @@
+﻿@model WebQLQuanAn.Models.BAN
+
+@{
+    ViewBag.Title = "Thông tin bàn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h1>Thông tin bàn</h1>
+
+                <div>
+                    <hr />
+                    <dl class="dl-horizontal">
+                        <dt>
+                            Tên bàn
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.TenBan)
+                        </dd>
+
+                        <dt>
+                            Loại bàn
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.LoaiBan)
+                        </dd>
+
+                        <dt>
+                           Trạng thái
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.TrangThai)
+                        </dd>
+
+                    </dl>
+                </div>
+                <p>
+                    <button class="btn btn-gradient-primary me-2">@Html.ActionLink("Sửa bàn", "Suaban", new { id = Model.MaBan })</button>
+                    <button class="btn btn-light"> @Html.ActionLink("Cancel", "Danhsachban")</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
